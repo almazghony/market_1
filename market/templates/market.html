@@ -79,15 +79,17 @@
                             <td>{{ item.location }}</td>
                             <td>{{ item.delivery }}</td>
                             <td>
-                                <div class="d-none d-md-block"> <!-- Hidden on mobile -->
+                                <!-- Hidden on mobile, visible on medium and larger screens -->
+                                <div class="d-none d-md-block">
                                     <button class="btn btn-outline btn-info" data-toggle="modal" data-target="#MoreInfo-{{ item.id }}">More Info</button>
                                     <button class="btn btn-outline btn-success" data-toggle="modal" data-target="#PicItem-{{ item.id }}">Pictures</button>
                                     <a href="{{ url_for('users.owner_profile', owner_id=item.id) }}" class="btn btn-outline btn-success">Owner</a>
                                 </div>
-                                <div class="d-md-none"> <!-- Visible on mobile -->
-                                    <button class="btn btn-outline btn-info mb-1" data-toggle="modal" data-target="#MoreInfo-{{ item.id }}">More Info</button>
-                                    <button class="btn btn-outline btn-success mb-1" data-toggle="modal" data-target="#PicItem-{{ item.id }}">Pictures</button>
-                                    <a href="{{ url_for('users.owner_profile', owner_id=item.id) }}" class="btn btn-outline btn-success">Owner</a>
+                                <!-- Visible on mobile, hidden on medium and larger screens -->
+                                <div class="d-block d-md-none">
+                                    <button class="btn btn-outline btn-info btn-block mb-1" data-toggle="modal" data-target="#MoreInfo-{{ item.id }}">More Info</button>
+                                    <button class="btn btn-outline btn-success btn-block mb-1" data-toggle="modal" data-target="#PicItem-{{ item.id }}">Pictures</button>
+                                    <a href="{{ url_for('users.owner_profile', owner_id=item.id) }}" class="btn btn-outline btn-success btn-block">Owner</a>
                                 </div>
                             </td>
                         </tr>
@@ -141,8 +143,6 @@
         background-color: #cc0000;  /* Darker red on hover */
         border-color: #990000;      /* Even darker red for the border on hover */
     }
-
-
 </style>
 
 {% endblock %}
