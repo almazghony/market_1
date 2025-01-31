@@ -1,0 +1,215 @@
+2025-01-24 23:11:16,827 - INFO - Market application started.
+2025-01-24 23:11:20,074 - INFO - Market application started.
+2025-01-25 00:04:11,104 - INFO - Market application started.
+2025-01-25 00:04:12,608 - INFO - Market application started.
+2025-01-25 00:10:43,585 - INFO - Market application started.
+2025-01-25 00:11:25,219 - INFO - Market application started.
+2025-01-25 00:11:26,677 - INFO - Market application started.
+2025-01-25 00:11:31,358 - INFO - Market application started.
+2025-01-25 00:11:37,662 - INFO - Market application started.
+2025-01-25 00:11:51,731 - INFO - Market application started.
+2025-01-25 00:11:58,351 - INFO - Market application started.
+2025-01-25 00:12:24,630 - INFO - Market application started.
+2025-01-25 00:13:48,942 - INFO - Market application started.
+2025-01-25 00:13:50,095 - INFO - Market application started.
+2025-01-25 00:16:42,943 - INFO - Market application started.
+2025-01-25 00:16:50,322 - INFO - Market application started.
+2025-01-25 00:16:58,689 - INFO - Market application started.
+2025-01-25 00:19:47,675 - INFO - Market application started.
+2025-01-25 00:20:43,956 - INFO - Market application started.
+2025-01-25 00:20:45,102 - INFO - Market application started.
+2025-01-25 00:21:40,107 - INFO - Market application started.
+2025-01-25 00:22:20,941 - INFO - Market application started.
+2025-01-25 00:31:42,039 - INFO - Market application started.
+2025-01-25 00:31:43,398 - INFO - Market application started.
+2025-01-25 00:35:24,336 - INFO - Market application started.
+2025-01-25 00:35:55,393 - INFO - Market application started.
+2025-01-25 00:37:31,682 - INFO - Market application started.
+2025-01-25 00:39:58,392 - INFO - Market application started.
+2025-01-25 00:39:59,647 - INFO - Market application started.
+2025-01-25 00:46:11,795 - INFO - Market application started.
+2025-01-25 00:46:16,447 - INFO - Market application started.
+2025-01-25 00:46:45,891 - INFO - Market application started.
+2025-01-25 00:46:47,148 - INFO - Market application started.
+2025-01-25 00:48:16,526 - INFO - Market application started.
+2025-01-25 00:48:26,875 - INFO - Market application started.
+2025-01-25 00:48:30,569 - INFO - Market application started.
+2025-01-25 00:53:17,304 - INFO - Market application started.
+2025-01-25 00:53:18,419 - INFO - Market application started.
+2025-01-25 00:53:59,657 - ERROR - Failed to send verification email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-38c2a17650esm3954156f8f.12 - gsmtp')
+2025-01-25 00:54:53,886 - INFO - Market application started.
+2025-01-25 00:54:57,546 - INFO - Market application started.
+2025-01-25 00:55:02,681 - INFO - Market application started.
+2025-01-25 00:55:07,344 - INFO - Market application started.
+2025-01-25 01:01:29,126 - INFO - Market application started.
+2025-01-25 01:01:36,049 - INFO - Market application started.
+2025-01-25 01:02:14,934 - INFO - Market application started.
+2025-01-25 01:02:16,145 - INFO - Market application started.
+2025-01-25 01:02:18,926 - ERROR - User with email almazghony1@gmail.com not found in the database.
+2025-01-25 01:02:30,439 - ERROR - User with email almazghony1@gmail.com not found in the database.
+2025-01-25 01:02:48,849 - ERROR - User with email almazghony1@gmail.com not found in the database.
+2025-01-25 01:03:01,009 - ERROR - User with email almazghony1@gmail.com not found in the database.
+2025-01-25 01:03:23,357 - ERROR - User with email almazghony1@gmail.com not found in the database.
+2025-01-25 01:03:26,442 - ERROR - User with email almazghony1@gmail.com not found in the database.
+2025-01-25 01:04:33,659 - INFO - Market application started.
+2025-01-25 01:04:36,239 - INFO - Market application started.
+2025-01-25 01:04:38,070 - ERROR - User with email almazghony1@gmail.com not found in the database.
+2025-01-25 01:04:45,998 - ERROR - User with email almazghony1@gmail.com not found in the database.
+2025-01-25 01:05:13,321 - INFO - Market application started.
+2025-01-25 01:05:22,601 - ERROR - An error occurred while resending verification email: 'NoneType' object has no attribute 'is_verified'
+Traceback (most recent call last):
+  File "c:\Users\YOUSEF\Desktop\Project\market\users\routes.py", line 438, in resend_verification
+    if user.is_verified:
+       ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'is_verified'
+2025-01-25 01:05:44,042 - ERROR - An error occurred while resending verification email: 'NoneType' object has no attribute 'is_verified'
+Traceback (most recent call last):
+  File "c:\Users\YOUSEF\Desktop\Project\market\users\routes.py", line 438, in resend_verification
+    if user.is_verified:
+       ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'is_verified'
+2025-01-25 01:05:55,642 - ERROR - An error occurred while resending verification email: 'NoneType' object has no attribute 'is_verified'
+Traceback (most recent call last):
+  File "c:\Users\YOUSEF\Desktop\Project\market\users\routes.py", line 438, in resend_verification
+    if user.is_verified:
+       ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'is_verified'
+2025-01-25 01:07:33,953 - INFO - Market application started.
+2025-01-25 01:07:56,346 - ERROR - User with email almazghony1@gmail.com not found in the database.
+2025-01-25 01:08:17,918 - INFO - Market application started.
+2025-01-25 01:08:22,539 - INFO - Market application started.
+2025-01-25 01:08:27,925 - INFO - Market application started.
+2025-01-25 01:09:27,027 - INFO - Market application started.
+2025-01-25 01:09:58,931 - INFO - Market application started.
+2025-01-25 01:14:31,847 - INFO - Market application started.
+2025-01-25 01:19:20,588 - INFO - Market application started.
+2025-01-25 01:19:39,932 - ERROR - An error occurred while resending verification email: name 'URLSafeTimedSerializer' is not defined
+Traceback (most recent call last):
+  File "c:\Users\YOUSEF\Desktop\Project\market\users\routes.py", line 437, in resend_verification
+    send_verification_email(email)
+  File "c:\Users\YOUSEF\Desktop\Project\market\users\utils.py", line 137, in send_verification_email
+    token = User.generate_verification_token(email)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\YOUSEF\Desktop\Project\market\models.py", line 31, in generate_verification_token
+    serializer = URLSafeTimedSerializer(current_app.config["SECRET_KEY"])
+                 ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'URLSafeTimedSerializer' is not defined
+2025-01-25 01:20:04,319 - INFO - Market application started.
+2025-01-25 01:20:34,232 - INFO - Market application started.
+2025-01-25 01:21:57,595 - INFO - Market application started.
+2025-01-25 01:24:27,153 - INFO - Market application started.
+2025-01-25 01:24:42,055 - WARNING - Session data mismatch or missing for email: almazghony0@gmail.com
+2025-01-25 01:26:40,220 - INFO - Market application started.
+2025-01-25 01:26:51,674 - INFO - Market application started.
+2025-01-25 01:27:16,014 - WARNING - Session data mismatch or missing for email: almazghony0@gmail.com
+2025-01-25 01:28:48,617 - INFO - Market application started.
+2025-01-25 01:28:54,544 - INFO - Market application started.
+2025-01-25 01:29:20,516 - WARNING - Session data mismatch or missing for email: almazghony0@gmail.com
+2025-01-25 01:32:13,981 - INFO - Market application started.
+2025-01-25 01:33:28,203 - WARNING - Session data mismatch or missing for email: almazghony0@gmail.com
+2025-01-25 11:00:44,682 - INFO - Market application started.
+2025-01-25 11:00:46,674 - INFO - Market application started.
+2025-01-25 11:10:32,241 - INFO - Market application started.
+2025-01-25 11:10:36,433 - INFO - Market application started.
+2025-01-25 11:11:16,762 - INFO - Market application started.
+2025-01-25 11:17:05,971 - INFO - Market application started.
+2025-01-25 11:17:07,876 - INFO - Market application started.
+2025-01-25 11:20:13,724 - INFO - User almazghony0@gmail.com successfully verified and created in the database.
+2025-01-25 11:21:32,297 - INFO - Market application started.
+2025-01-25 19:31:19,289 - INFO - Market application started.
+2025-01-25 19:31:23,376 - INFO - Market application started.
+2025-01-26 09:48:47,281 - INFO - Market application started.
+2025-01-26 09:48:48,587 - INFO - Market application started.
+2025-01-28 13:39:21,913 - INFO - Market application started.
+2025-01-28 13:39:24,669 - INFO - Market application started.
+2025-01-28 13:43:03,195 - INFO - Market application started.
+2025-01-28 13:43:19,764 - INFO - Market application started.
+2025-01-28 13:44:17,705 - INFO - Market application started.
+2025-01-28 14:03:08,979 - INFO - Market application started.
+2025-01-28 14:03:27,342 - INFO - Market application started.
+2025-01-28 14:03:31,471 - INFO - Market application started.
+2025-01-28 14:06:19,744 - INFO - User almazghony0@gmail.com successfully verified and created in the database.
+2025-01-28 14:07:27,020 - INFO - Market application started.
+2025-01-28 14:48:49,834 - INFO - Market application started.
+2025-01-28 14:48:52,727 - INFO - Market application started.
+2025-01-28 14:52:02,826 - INFO - Market application started.
+2025-01-28 14:52:09,658 - INFO - Market application started.
+2025-01-28 14:52:57,465 - WARNING - No session data found for email: almazghony1@gmail.com
+2025-01-28 16:51:32,267 - INFO - Market application started.
+2025-01-28 16:51:36,978 - INFO - Market application started.
+2025-01-28 16:52:46,052 - INFO - Market application started.
+2025-01-28 16:52:55,225 - INFO - Market application started.
+2025-01-28 16:53:14,557 - INFO - Market application started.
+2025-01-28 16:53:29,562 - INFO - Market application started.
+2025-01-28 16:53:49,663 - INFO - Market application started.
+2025-01-28 16:54:07,472 - INFO - Market application started.
+2025-01-28 16:54:46,210 - INFO - Market application started.
+2025-01-28 16:54:55,814 - INFO - Market application started.
+2025-01-28 16:55:28,685 - INFO - Market application started.
+2025-01-28 16:56:30,818 - INFO - Market application started.
+2025-01-28 16:57:15,452 - INFO - Market application started.
+2025-01-28 16:57:27,456 - INFO - Market application started.
+2025-01-28 16:57:48,618 - INFO - Market application started.
+2025-01-28 17:00:12,807 - INFO - Market application started.
+2025-01-28 17:01:07,567 - INFO - Market application started.
+2025-01-28 17:01:16,226 - INFO - Market application started.
+2025-01-28 17:01:48,998 - INFO - Market application started.
+2025-01-28 17:02:02,923 - INFO - Market application started.
+2025-01-28 17:06:50,315 - INFO - Market application started.
+2025-01-28 17:07:03,117 - INFO - Market application started.
+2025-01-28 17:07:30,314 - INFO - Market application started.
+2025-01-28 17:07:37,386 - INFO - Market application started.
+2025-01-28 17:38:23,979 - INFO - Market application started.
+2025-01-28 17:38:31,854 - INFO - Market application started.
+2025-01-28 19:37:29,861 - INFO - Market application started.
+2025-01-28 19:37:34,050 - INFO - Market application started.
+2025-01-28 19:46:01,128 - INFO - Market application started.
+2025-01-28 19:49:09,945 - INFO - Market application started.
+2025-01-28 20:02:06,735 - INFO - Market application started.
+2025-01-28 20:02:09,003 - INFO - Market application started.
+2025-01-28 20:03:10,653 - INFO - Market application started.
+2025-01-28 20:04:14,876 - INFO - Market application started.
+2025-01-28 20:04:36,365 - INFO - Market application started.
+2025-01-28 20:04:38,352 - INFO - Market application started.
+2025-01-28 22:33:01,029 - INFO - Market application started.
+2025-01-28 22:33:05,378 - INFO - Market application started.
+2025-01-28 22:37:41,256 - INFO - Market application started.
+2025-01-28 22:38:22,859 - INFO - Market application started.
+2025-01-28 22:38:39,588 - INFO - Market application started.
+2025-01-28 22:53:27,724 - INFO - Market application started.
+2025-01-28 22:53:33,048 - INFO - Market application started.
+2025-01-28 23:41:37,511 - INFO - Market application started.
+2025-01-28 23:44:27,072 - INFO - Market application started.
+2025-01-28 23:44:30,010 - INFO - Market application started.
+2025-01-28 23:51:29,755 - INFO - Market application started.
+2025-01-29 00:05:03,455 - INFO - Market application started.
+2025-01-29 00:06:12,687 - INFO - Market application started.
+2025-01-29 00:06:14,995 - INFO - Market application started.
+2025-01-29 00:08:05,382 - INFO - Market application started.
+2025-01-29 00:08:29,051 - INFO - Market application started.
+2025-01-29 00:08:31,486 - INFO - Market application started.
+2025-01-29 00:09:24,617 - INFO - Market application started.
+2025-01-29 00:09:33,090 - INFO - Market application started.
+2025-01-29 00:15:54,395 - INFO - Market application started.
+2025-01-29 00:16:40,509 - INFO - Market application started.
+2025-01-29 00:27:00,324 - INFO - Market application started.
+2025-01-29 00:27:03,157 - INFO - Market application started.
+2025-01-29 00:29:51,535 - INFO - Market application started.
+2025-01-29 00:40:39,152 - INFO - Market application started.
+2025-01-29 00:48:53,229 - INFO - Market application started.
+2025-01-29 00:49:03,128 - INFO - Market application started.
+2025-01-29 00:49:22,566 - INFO - Market application started.
+2025-01-29 00:49:32,497 - INFO - Market application started.
+2025-01-29 00:49:45,220 - ERROR - Token verification failed: Signature b'oEH5CjtDdzKH-wzf8sy-z8vJnXk' does not match
+2025-01-29 00:49:51,055 - ERROR - Failed to generate reset token: unsupported operand type(s) for +: 'int' and 'bytes'
+2025-01-29 00:50:06,346 - INFO - Market application started.
+2025-01-29 00:53:47,910 - INFO - Market application started.
+2025-01-29 00:56:37,319 - INFO - Market application started.
+2025-01-29 00:56:51,070 - INFO - Market application started.
+2025-01-29 00:56:52,494 - INFO - Market application started.
+2025-01-29 00:57:15,756 - INFO - Market application started.
+2025-01-29 01:06:55,735 - INFO - Market application started.
+2025-01-29 01:07:17,186 - INFO - Market application started.
+2025-01-29 01:07:18,723 - INFO - Market application started.
+2025-01-31 22:19:22,781 - INFO - Market application started.
+2025-01-31 22:19:25,611 - INFO - Market application started.
